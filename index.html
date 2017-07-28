@@ -1,0 +1,1560 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>新蛋中国，领先的网上购物商场</title>
+	<link rel="shortcut icon" href="./favicon2.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="./css/reset.css" />
+	<link rel="stylesheet" href="./css/common.css" />
+	<link rel="stylesheet" href="./css/index.css" />
+	<script>
+		window.onload = function(){
+	    var iTotalTime  = 23 + 8;//每天8点距离第二天8的时间
+	    var oHour         = document.getElementById("hour");
+	    var oMin       = document.getElementById("min");
+	    var oSen       = document.getElementById("sen");
+	    var iDin      = 59;
+	    //一秒执行一次
+	    setInterval(function(){
+	        var dDate = new Date();//获得本地时间    
+	        var getMin = 59 - dDate.getMinutes();
+	        var getSen = 59 - dDate.getSeconds();
+	        oHour.innerHTML = iTotalTime - dDate.getHours();   
+	        oMin.innerHTML  = getMin > 9 ?getMin:"0"+getMin;
+	        oSen.innerHTML  = getSen > 9 ?getSen:"0"+getSen;
+	    },1000);
+	}
+	</script>
+</head>
+<body>
+	<div class="topbar c6">
+		<div class="inner_c">
+			<div class="leftside fl">
+				<ul>
+					<li><a href="#">掌上新蛋</a></li>
+					<li><a href="#">企业团购</a></li>
+				</ul>
+			</div>
+			<div class="rightside fr">
+				<span class="main_text">
+					<a href="#">注册</a>
+					<b>|</b>
+					<a href="#">登录</a>
+					<span class="text">下午好，欢迎来新蛋购物！</span>
+				</span>
+				<ul class="fr">
+					<li class="d0"><a href="#">我的订单</a></li>
+					<li class="d1">
+						<a href="#">
+							我的新蛋
+							<u>
+								<i>◇</i>
+							</u>
+						</a>
+						<div class="detail1">请登录后查看</div>
+					</li>
+					<li class="d2"><a href="#">帮助中心</a></li>
+					<li class="d3">
+						<a class="kefu" href="#">
+							客服服务
+							<u>
+								<i>◇</i>
+							</u>
+						</a>
+						<div class="detail2">
+							<p class="org">400-820-4400</p>
+							<b>021-67072999</b>
+							<p>每天9:00-18:00</p>
+							<a href="#"><span  class="zixun">在线咨询</span></a>
+							<a href="#"><span class="youjian">邮件我们</span></a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="header c6">
+		<div class="inner_c">
+			<div class="logo">
+				<h1>
+					<a href="/">新蛋</a>
+				</h1>
+			</div>
+			<div class="search fl">
+				<form action="">
+					<input class="txt fl" type="text" value="手机年中好评榜单出炉！" />
+					<input class="btn fl" type="submit" value="搜索" />
+				</form>
+				<div class="keyword">
+					<ul>
+						<li><a href="#">智能硬件</a></li>
+						<li><span>|</span></li>
+						<li><a href="#">iPhone7</a></li>
+						<li><span>|</span></li>
+						<li><a href="#">mate9</a></li>
+						<li><span>|</span></li>
+						<li><a href="#">Thinkpad</a></li>
+						<li><span>|</span></li>
+						<li><a href="#">电视机</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="tuihuo fr">
+				<a href="#">退货</a>
+			</div>
+		</div>
+	</div>
+	<div class="menu">
+		<div class="inner_c">
+				<a class="shangpin" href="#">
+					全部商品分类
+					<u>
+						<i>◇</i>
+					</u>
+				</a>
+				<ul class="nav">
+					<li><a href="#">首页</a></li>
+					<li><a href="#">限时抢购</a></li>
+					<li><a href="#">团团赚</a></li>
+					<li><a href="#">海外直购</a></li>
+					<li><a href="#">MOPS专区</a></li>
+					<li><a href="#">爱车配</a></li>
+					<li><a href="#">二手宝库</a></li>
+				</ul>
+				<div class="all">
+					<div class="gouwu">
+						<a href="#">
+							购物车<span>0</span>件
+							<div class="sanjiao"></div>
+						</a>
+						<div class="detail_gouwu">
+							<div></div>您还没有购买商品，快去挑选吧！
+						</div>
+					</div>
+					<div class="line"></div>
+					<div class="shoucang">
+						<a href="#">
+							收藏提醒
+							<div class="sanjiao"></div>
+						</a>
+						<div class="detail_shoucang">
+							请登录后查看
+							<button>登录</button>
+						</div>
+					</div>
+				</div>
+				<div class="sidebar c6">
+				    <!-- 飞机 -->
+					<ul class="side">
+						<li class="bar">
+							<span class="logo" style="background: url(./images/banner_sprit.png) no-repeat 2px 0"></span>
+							<a href="#"><h3>海外直购</h3></a>
+							<!-- 右箭头 -->
+							<div class="arrow"></div>
+						</li>
+						<li class="bar"><a href="#" style="color: #FF6501">影音</a></li>
+						<li class="bar"><a href="#" style="color: #FF6501">固态硬件</a></li>
+						<li class="bar"><a href="#">奶粉</a></li>
+						<!-- 弹出框 -->
+						<div class="all_det">
+							<div class="det_l fl">
+								<ul class="shuma">
+									<li>
+										<a class="first_txt" href="#">数码外设</a>
+									</li>
+									<li>
+										<a href="#">耳机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">电脑外设</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">手机配件</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">音响</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">网络设备</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">办公设备</a>
+										<span>|</span>
+									</li>
+									<li><a href="#">U盘/存储卡</a></li>
+								</ul>
+								<ul class="diannao">
+									<li>
+										<a class="first_txt" href="#">电脑平板</a>
+									</li>
+									<li>
+										<a href="#">笔记本电脑</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">硬盘内存</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">电脑主板</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">声卡显卡</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">笔记本电脑包</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">平板设备</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">外置硬件</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">固态硬盘</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">迷你主机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">CPU处理器</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">散热设备</a>
+									</li>
+								</ul>
+								<ul class="dianqi">
+									<li>
+										<a class="first_txt" href="#">家用电器</a>
+									</li>
+									<li>
+										<a href="#">厨房电器</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">清洁电器</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">个人护理</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">口腔清洁</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">生活电器</a>
+									</li>
+								</ul>
+								<ul class="baihuo">
+									<li>
+										<a class="first_txt" href="#">生活百货</a>
+									</li>
+									<li>
+										<a href="#">男鞋女鞋</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">手表配件</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">美妆</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">太阳眼镜</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">服饰</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">品牌箱包</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">首饰</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">汽车配件</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">文具/耗材</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">成人服饰</a>
+									</li>
+								</ul>
+								<ul class="meizhuang">
+									<li>
+										<a class="first_txt" href="#">个护美妆</a>
+									</li>
+									<li>
+										<a href="#">面膜</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">润肤</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">面部彩妆</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">洗发水</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">个护清洁</a>
+									</li>
+								</ul>
+								<ul class="muying">
+									<li>
+										<a class="first_txt" href="#">母婴商品</a>
+									</li>
+									<li>
+										<a href="#">婴儿喂养</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">婴儿服饰配件</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">儿童玩具</a>
+									</li>
+								</ul>
+								<div class="qiang"></div>
+								<ul class="baojian">
+									<li>
+										<a class="first_txt" href="#">营养保健</a>
+									</li>
+									<li>
+										<a href="#">营养类</a>
+									</li>
+								</ul>
+							</div>
+							<div class="det_r fr">
+								<h3>热门品牌</h3>
+								<span style="background: url(./images/fanxin-2.jpg)">
+									<a href="#">
+									</a>
+								</span>
+								<span style="background: url(./images/logo1.jpg)">
+									<a href="#">
+									</a>
+								</span>
+								<span style="background: url(./images/asus.jpg)">
+									<a href="#">
+									</a>
+								</span>
+								<span style="background: url(./images/logo2.jpg)">
+									<a href="#">
+									</a>
+								</span>
+								<span style="background: url(./images/philip.jpg)">
+									<a href="#">
+									</a>
+								</span>
+								<span style="background: url(./images/logo3.jpg)">
+									<a href="#">
+									</a>
+								</span>
+							</div>
+						</div>
+					</ul>
+					<!-- 手机 -->
+					<ul class="side">
+						<li class="bar">
+							<span class="logo" style="background: url(./images/banner_sprit.png) no-repeat 2px -21px;"></span>
+							<a href="#"><h3>手机</h3></a>
+							<a href="#"><h3>摄影</h3></a>
+							<a href="#"><h3>苹果</h3></a>
+							<div class="arrow" ></div>
+						</li>
+						<li class="bar">
+							<a href="#" style="color: #FF6501">智能手机</a>
+						</li>
+						<li class="bar">
+							<a href="#">微单</a>
+						</li>
+						<li class="bar">
+							<a href="#" style="color: #FF6501">数码包</a>
+						</li>
+						<!-- 弹出框 -->
+						<div class="all_det" style="background: url(./images/mate9tj.jpg);">
+							<div class="det_l fl">
+								<ul class="shouji">
+									<li>
+										<a class="first_txt" href="#">手机</a>
+									</li>
+									<li>
+										<a href="#" style="color: #FF6501">智能手机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">非智能手机</a>
+									</li>
+								</ul>
+								<ul class="pingguo">
+									<li>
+										<a class="first_txt" href="#">苹果专区</a>
+									</li>
+									<li>
+										<a href="#" style="color: #FF6501">iPhone</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">iPad</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">Watch</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#" style="color: #FF6501">MacBook</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">iPhone附件</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">iPad附件</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">苹果通用附件</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">苹果原装配件</a>
+									</li>
+								</ul>
+								<ul class="peijian">
+									<li>
+										<a class="first_txt" href="#">手机配件</a>
+									</li>
+									<li>
+										<a href="#">手机电池/充电器</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">手机数据线</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">车载手机配件</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">手机通用配件</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">手机贴膜</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">手机保护套</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">iPhone附件</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#" style="color: #FF6501">移动电源</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">手机耳机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#" style="color: #FF6501">蓝牙耳机</a>
+									</li>
+								</ul>
+								<ul class="zhineng">
+									<li>
+										<a class="first_txt" href="#">智能硬件</a>
+									</li>
+									<li>
+										<a href="#" style="color: #FF6501">智能穿戴/设备</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">无人机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">平衡车</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">游戏机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">游戏周边</a>
+									</li>
+								</ul>
+								<ul class="sheying">
+									<li>
+										<a class="first_txt" href="#">单反相机</a>
+									</li>
+									<li>
+										<a href="#" style="color: #FF6501">单电/微单</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">镜头</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">数码相机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">数码摄像机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">特殊相机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">照片打印机</a>
+									</li>
+								</ul>
+								<ul class="fujian">
+									<li>
+										<a  class="first_txt" href="#">数码附件</a>
+									</li>
+									<li>
+										<a href="#">单反配件</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">镜头滤镜</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">数码贴膜/清洁</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">数码包</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">三脚架/云台</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">电池/充电器</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#" style="color: #FF6501">存储卡</a>
+									</li>
+								</ul>
+							</div>
+							<div class="det_r fr">
+								<h3>热门品牌</h3>
+								<span style="background: url(./images/apple.jpg)">
+									<a href="#">
+									</a>
+								</span>
+								<span style="background: url(./images/huaweibannera.jpg)">
+									<a href="#">
+									</a>
+								</span>
+								<span style="background: url(./images/jianengbannerb.jpg)">
+									<a href="#">
+									</a>
+								</span>
+								<span style="background: url(./images/meizubannera.jpg)">
+									<a href="#">
+									</a>
+								</span>
+								<span style="background: url(./images/nikangbannera.jpg)">
+									<a href="#">
+									</a>
+								</span>
+								<span style="background: url(./images/xiaomibannera.jpg)">
+									<a href="#">
+									</a>
+								</span>
+							</div>
+						</div>
+					</ul>
+					<!-- 电脑 -->
+					<ul class="side">
+						<li class="bar">
+							<span class="logo" style="background: url(./images/banner_sprit.png) no-repeat 1px -43px;"></span>
+							<a href="#"><h3>电脑</h3></a>
+							<a href="#"><h3>外设</h3></a>
+							<a href="#"><h3>办公</h3></a>
+							<div class="arrow" ></div>
+						</li>
+						<li class="bar"><a href="#" style="color: #FF6501">笔记本</a></li>
+						<li class="bar"><a href="#" style="color: #FF6501">智能硬件</a></li>
+						<li class="bar"><a href="#">硬盘</a></li>
+						<!-- 弹出框 -->
+						<div class="all_det">
+							<div class="det_l fl">
+								<ul class="zhengji">
+									<li>
+										<a class="first_txt" href="#">电脑整机</a>
+									</li>
+									<li>
+										<a href="#" style="color: #FF6501">笔记本</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">台式机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">笔记本配件</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">平板配件</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">平板</a>
+									</li>
+								</ul>
+								<ul class="dianjian">
+									<li>
+										<a class="first_txt" href="#">电脑配件</a>
+									</li>
+									<li>
+										<a href="#" style="color: #FF6501">主板</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">显卡</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">硬件</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#" style="color: #FF6501">SSD固态硬件</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">机箱</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">电源</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">显示器</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">光驱/刻录机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">散热器</a>
+									</li>
+								</ul>
+								<ul class="waishe">
+									<li>
+										<a class="first_txt" href="#">电脑外设</a>
+									</li>
+									<li>
+										<a href="#">键盘</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">鼠标</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">U盘</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">移动硬盘</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">存储卡</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">读卡器</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">手绘板</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#" style="color: #FF6501">插座</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">鼠标垫/附件</a>
+									</li>
+								</ul>
+								<ul class="wangluo">
+									<li>
+										<a class="first_txt" href="#">网络设备</a>
+									</li>
+									<li>
+										<a href="#" style="color: #FF6501">路由器</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">网卡</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">无线AP</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">交换机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">网络配件</a>
+									</li>
+								</ul>
+								<ul class="yingpin">
+									<li>
+										<a class="first_txt" href="#">音频设备</a>
+									</li>
+									<li>
+										<a href="#" style="color: #FF6501">耳机/耳麦</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">音箱</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">手机耳机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">蓝牙耳机</a>
+									</li>
+								</ul>
+								<ul class="zhijian">
+									<li>
+										<a  class="first_txt" href="#">智能硬件</a>
+									</li>
+									<li>
+										<a href="#">智能穿戴/设备</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">无人机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">平衡机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">游戏机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">游戏周边</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">苹果配件</a>
+									</li>
+								</ul>
+								<ul class="bangong">
+									<li>
+										<a  class="first_txt" href="#">办公设备</a>
+									</li>
+									<li>
+										<a href="#">墨仓式打印机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">激光打印机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">喷墨打印机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">针式打印机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">投影机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">扫描仪</a>
+									</li>
+								</ul>
+							</div>
+							<div class="det_r fr">
+								<h3>热门品牌</h3>
+								<span style="background: url(./images/asus.jpg)">
+									<a href="#">
+									</a>
+								</span>
+								<span style="background: url(./images/dell.jpg)">
+									<a href="#">
+									</a>
+								</span>
+								<span style="background: url(./images/hp.jpg)">
+									<a href="#">
+									</a>
+								</span>
+								<span style="background: url(./images/lenovologo1.jpg)">
+									<a href="#">
+									</a>
+								</span>
+								<span style="background: url(./images/microsoftb.jpg)">
+									<a href="#">
+									</a>
+								</span>
+								<span style="background: url(./images/thinkpad.jpg)">
+									<a href="#">
+									</a>
+								</span>
+							</div>
+						</div>
+
+					</ul>
+					<!-- 家用电器 -->
+					<ul class="side">
+						<li class="bar">
+							<span class="logo" style="background: url(./images/banner_sprit.png) no-repeat 0 -63px;"></span>
+							<a href="#"><h3>家用电器</h3></a>
+							<div class="arrow" ></div>
+						</li>
+						<li class="bar"><a href="#">电饭煲</a></li>
+						<li class="bar"><a href="#" style="color: #FF6501">电视</a></li>
+						<li class="bar"><a href="#">净水机</a></li>
+
+						<!-- 弹出框 -->
+						<div class="all_det">
+							<div class="det_l fl">
+								<ul class="pinban">
+									<li>
+										<a class="first_txt" href="#">平板电视</a>
+									</li>
+									<li>
+										<a href="#" style="color: #FF6501">40-60英寸</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">大于60英寸</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">小于40英寸</a>
+									</li>
+								</ul>
+								<ul class="bingxi">
+									<li>
+										<a class="first_txt" href="#">冰/洗/空</a>
+									</li>
+									<li>
+										<a href="#" style="color: #FF6501">空调</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">洗衣/干衣机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">冰箱/冷柜</a>
+									</li>
+								</ul>
+								<ul class="shiting">
+									<li>
+										<a class="first_txt" href="#">视听设备</a>
+									</li>
+									<li>
+										<a href="#" style="color: #FF6501">家庭影院</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">迷你音响/收录机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">音箱</a>
+									</li>
+								</ul>
+								<ul class="jiazhuang">
+									<li>
+										<a class="first_txt" href="#">家装电器</a>
+									</li>
+									<li>
+										<a href="#" style="color: #FF6501">烟机/灶具</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">燃气热水器</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">电热水器</a>
+									</li>
+								</ul>
+								<ul class="jiadian">
+									<li>
+										<a class="first_txt" href="#">生活家电</a>
+									</li>
+									<li>
+										<a href="#" style="color: #FF6501">取暖电器</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">电熨斗</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">挂烫机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">吸尘器</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">电风扇</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">饮水机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">净水设备</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">加湿器</a>
+									</li>
+								</ul>
+								<ul class="jiankang">
+									<li>
+										<a class="first_txt" href="#">个护健康</a>
+									</li>
+									<li>
+										<a href="#" style="color: #FF6501">电吹风</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">电动牙刷</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">美容美发器</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">电子体温计</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">计步器</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">血压器</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">足浴盆</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">按摩器具</a>
+									</li>
+								</ul>
+							</div>
+							<div class="det_r fr">
+								<h3>热门品牌</h3>
+								<span style="background: url(./images/philips.jpg)">
+									<a href="#">
+									</a>
+								</span>
+								<span style="background: url(./images/panasonic.jpg)">
+									<a href="#">
+									</a>
+								</span>
+								<span style="background: url(./images/floor2_sharp.jpg)">
+									<a href="#">
+									</a>
+								</span>
+								<span style="background: url(./images/midea.jpg)">
+									<a href="#">
+									</a>
+								</span>
+								<span style="background: url(./images/galanz.jpg)">
+									<a href="#">
+									</a>
+								</span>
+								<span style="background: url(./images/suporlogo1.jpg)">
+									<a href="#">
+									</a>
+								</span>
+							</div>
+						</div>
+					</ul>
+					<!-- 生活百货 -->
+					<ul class="side baihuo" style="border-style: none;">
+						<li class="bar">
+							<span class="logo" style="background: url(./images/banner_sprit.png) no-repeat 0 -84px;"></span>
+							<a href="#"><h3>生活百货</h3></a>
+							<div class="arrow" ></div>
+						</li>
+						<li class="bar pop"><a href="#" style="color: #FF6501">汽车用品</a></li>
+						<li class="bar pop"><a href="#">个护清洁</a></li>
+
+						<li class="bar spe pop"><a href="#">家居</a></li>
+						<li class="bar pop"><a href="#">厨用</a></li>
+						<li class="bar pop"><a href="#">钟表</a></li>
+						<li class="bar pop"><a href="#">礼品</a></li>
+
+						<li class="bar spe"><a href="#">服饰</a></li>
+						<li class="bar"><a href="#">女装</a></li>
+						<li class="bar"><a href="#">内衣</a></li>
+						<li class="bar"><a href="#">珠宝</a></li>
+
+						<li class="bar spe"><a href="#">母婴</a></li>
+						<li class="bar"><a href="#">玩具</a></li>
+						<li class="bar"><a href="#">食品</a></li>
+						<li class="bar"><a href="#">酒饮</a></li>
+
+						<li class="bar spe"><a href="#">鞋靴</a></li>
+						<li class="bar"><a href="#">箱包</a></li>
+						<li class="bar"><a href="#">运动</a></li>
+						<li class="bar"><a href="#">户外</a></li>
+
+						<div class="all_det">
+							<div class="det_l fl">
+								<ul class="pinban">
+									<li>
+										<a class="first_txt" href="#">平板电视</a>
+									</li>
+									<li>
+										<a href="#" style="color: #FF6501">40-60英寸</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">大于60英寸</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">小于40英寸</a>
+									</li>
+								</ul>
+								<ul class="bingxi">
+									<li>
+										<a class="first_txt" href="#">冰/洗/空</a>
+									</li>
+									<li>
+										<a href="#" style="color: #FF6501">空调</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">洗衣/干衣机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">冰箱/冷柜</a>
+									</li>
+								</ul>
+								<ul class="shiting">
+									<li>
+										<a class="first_txt" href="#">视听设备</a>
+									</li>
+									<li>
+										<a href="#" style="color: #FF6501">家庭影院</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">迷你音响/收录机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">音箱</a>
+									</li>
+								</ul>
+								<ul class="jiazhuang">
+									<li>
+										<a class="first_txt" href="#">家装电器</a>
+									</li>
+									<li>
+										<a href="#" style="color: #FF6501">烟机/灶具</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">燃气热水器</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">电热水器</a>
+									</li>
+								</ul>
+								<ul class="jiadian">
+									<li>
+										<a class="first_txt" href="#">生活家电</a>
+									</li>
+									<li>
+										<a href="#" style="color: #FF6501">取暖电器</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">电熨斗</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">挂烫机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">吸尘器</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">电风扇</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">饮水机</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">净水设备</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">加湿器</a>
+									</li>
+								</ul>
+								<ul class="jiankang">
+									<li>
+										<a class="first_txt" href="#">个护健康</a>
+									</li>
+									<li>
+										<a href="#" style="color: #FF6501">电吹风</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">电动牙刷</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">美容美发器</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">电子体温计</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">计步器</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">血压器</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">足浴盆</a>
+										<span>|</span>
+									</li>
+									<li>
+										<a href="#">按摩器具</a>
+									</li>
+								</ul>
+							</div>
+							<div class="det_r fr">
+								<h3>热门品牌</h3>
+								<span style="background: url(./images/philips.jpg)">
+									<a href="#">
+									</a>
+								</span>
+								<span style="background: url(./images/panasonic.jpg)">
+									<a href="#">
+									</a>
+								</span>
+								<span style="background: url(./images/floor2_sharp.jpg)">
+									<a href="#">
+									</a>
+								</span>
+								<span style="background: url(./images/midea.jpg)">
+									<a href="#">
+									</a>
+								</span>
+								<span style="background: url(./images/galanz.jpg)">
+									<a href="#">
+									</a>
+								</span>
+								<span style="background: url(./images/suporlogo1.jpg)">
+									<a href="#">
+									</a>
+								</span>
+							</div>
+						</div>
+					</ul>
+				</div>
+		</div>
+	</div>
+	<div class="inner_c">
+		<div class="content c6">
+			<div class="t_pic">
+				<ul>
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li><a href="#">6</a></li>
+					<li><a href="#">7</a></li>
+					<li><a href="#">8</a></li>
+				</ul>
+			</div>
+			<div class="b_pic fl">
+				<p>限时抢购</p>
+				<div class="time">
+					<div>剩余时间:</div><span id="hour">00</span><div>:</div><span id="min">00</span><div>:</div><span id="sen">00</span>
+				</div>
+				<a class="gengduo" href="#">
+					更多抢购商品
+					<span></span>
+				</a>
+				<div class="move">
+					<ul class="move_pic">
+						<li>
+							<a href="#">
+								<img src="./images/A09-3VQ-5P2.jpg"/>
+								<span class="txt">戴森&nbsp;Dyson&nbsp;吸尘器&nbsp;V6&nbsp;ANIMAL+手持吸尘器&nbsp;家用除螨</span>
+								<span class="price" style="color: #FF6600">¥2699.00</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="./images/A23-163-29G.jpg"/>
+								<span class="txt">>NETGEAR&nbsp;美国网件&nbsp;Orbi&nbsp;RBK50&nbsp;智慧分身多路由系统</span>
+								<span class="price" style="color: #FF6600">¥2599.00</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="./images/S6C-257-1QT.jpg"/>
+								<span class="txt">Klipsch杰士&nbsp;XR8i&nbsp;通话式耳机&nbsp;苹果版&nbsp;通话式耳机&nbsp;XR8i</span>
+								<span class="price" style="color: #FF6600"><s style="color: #666">¥2070.00</s>&nbsp;¥2599.00</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="./images/A1I-184-029.jpg"/>
+								<span class="txt">输入蛋券&nbsp;applekh&nbsp;立减300元&nbsp;机不可失！数量有限！</span>
+								<span class="price" style="color: #FF6600">¥16988.00</span>
+							</a>
+						</li>
+					</ul>
+					<!-- 左右三角形 -->
+					<div class="arrows">
+						<span class="left fl"></span>
+						<span class="right fr"></span>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="ad fr">
+			<div class="zhadan">
+				<img src="./images/1.jpg" />
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="tuangou">
+				<img src="./images/230x218.jpg"/>
+			</div>
+			<div class="dongtai c6">
+				<table>
+					<tr>
+						<th>
+							新蛋动态
+							<a class="fr" href="#">更多>></a>
+						</th>
+					</tr>
+					<tr>
+						<td>
+							<a href="#">
+								手机年中好评榜单出炉！
+							</a>
+							<span class="new fr"></span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="#">买手机送watch！</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="#">萌宝出行必备</a>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="dongtu" style="margin-top: 20px;">
+				<img src="./images/230x123.jpg" />
+			</div>
+		</div>
+
+		<div class="hot_sale fl c6">
+				<h2 class="fl">热卖区</h2>
+				<span class="hot_flash fl" style="background: url(./images/hot_flash.png);"></span>
+				<span class="flash_txt fl">换一批</span>
+				<span class="flash_txt fr">热卖促销商品，不容错过，更多惊喜等你发现</span>
+				<div class="hot_area fl">
+					<ul>
+						<li>
+							<a class="hot_pic" href="#">
+								<img src="./images/A24-108-3CT.jpg"  />
+								<span class="area_txt">
+									Seagate&nbsp;希捷&nbsp;Expansion&nbsp;新睿翼&nbsp;2.5英寸&nbsp;USB3.0&nbsp;2T&nbsp;移动硬盘&nbsp;黑色
+								</span>
+							</a>
+							<span class="hot_price fl" style="color: #FF6600">¥569.00</span>
+							<a class="hot_btn fr" href="#">抢购</a>
+							<img class="yagai" src="./images/rqbk.png"/>
+						</li>
+						<li>
+							<a class="hot_pic" href="#">
+								<img src="./images/A10-2X1-6TQ.jpg"  />
+								<span class="area_txt">
+									Beats&nbsp;	X&nbsp;蓝牙无线&nbsp;入耳式耳机&nbsp;运动耳机&nbsp;手机耳机&nbsp;带麦可通话&nbsp;蓝色
+								</span>
+							</a>
+							<span class="hot_price fl" style="color: #FF6600">¥839.00</span>
+							<a class="hot_btn fr" href="#">抢购</a>
+							<img class="yagai" src="./images/zj.png"/>
+						</li>
+						<li>
+							<a class="hot_pic" href="#">
+								<img src="./images/A23-163-29N.jpg"  />
+								<span class="area_txt">
+									华为&nbsp;Mate&nbsp;9&nbsp;MHA-AL00&nbsp;摩卡金&nbsp;内存6GB+128GB&nbsp;移动联通电信4G手机
+								</span>
+							</a>
+							<span class="hot_price fl" style="color: #FF6600">¥3559.00</span>
+							<a class="hot_btn fr" href="#">抢购</a>
+							<img class="yagai" src="./images/mxsp.png"/>
+						</li>
+						<li>
+							<a class="hot_pic" href="#">
+								<img src="./images/A28-800-74A.jpg"  />
+								<span class="area_txt">
+									NETGEAR&nbsp;美国网件&nbsp;R6900&nbsp;AC1900M双频千兆无线路由器
+								</span>
+							</a>
+							<span class="hot_price fl" style="color: #FF6600">¥839.00</span>
+							<a class="hot_btn fr" href="#">抢购</a>
+							<img class="yagai" src="./images/jbj.png"/>
+						</li>
+					</ul>
+				</div>
+		</div>
+	</div>
+	<div class="inner_c">
+		<div class="footer fl c6">
+			<div class="box1">
+				<ul class="ul1 fl">
+					<li class="b_green">
+						<a href="#">
+							<img style="width: 385px" src="./images/b3_v3.jpg" />
+						</a>
+					</li>
+					<li class="b_gb">
+						<a href="#">
+							<img style="width: 385px" src="./images/b4_v2.jpg" />
+						</a>
+					</li>
+					<li class="b_blue">
+						<a href="#">
+							<img style="width: 385px" src="./images/b5_v2.jpg"  />
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="box2">
+				<div class="box2_1 fl">
+					<span></span>
+					<ul>
+						<li><h3>掌上新蛋</h3></li>
+						<li style="font-size: 12px;">手机扫描二维码</li>
+						<li style="font-size: 12px;">免费下载新蛋商城</li>
+					</ul>
+				</div>
+				<div class="box2_2 fl">
+					<span></span>
+					<ul>
+						<li><h3>新蛋微信公众号</h3></li>
+						<li style="font-size: 12px;">使用微信扫描一下</li>
+						<li style="font-size: 12px;">或找微信号：Newegg_China</li>
+					</ul>
+				</div>
+				<div class="box2_3 fl">
+					<span></span>
+					<h3>订阅新蛋优惠信息</h3>
+					<div class="dingyue">
+						<a class="fenlei fl" href="#">分类订阅>></a>
+						<a class="zixun fl" href="#">咨询导航>></a>
+						<form action="">
+						<input class="txt fl" type="text" value="输入Email地址" />
+						<input class="btn fl" type="submit" value="订阅" />
+					</form>
+					</div>
+				</div>
+				<div class="box2_4 fl">
+					<h3>关注我们:</h3>
+					<ul class="fr">
+						<li>
+							
+							<a class="box2_4_pic11 fr" href="#">加关注</a>
+							<span class="box2_4_pic1 fr"></span>
+						</li>
+						<li>
+							<a class="box2_4_pic22 fr" href="#">加关注</a>
+							<span class="box2_4_pic2 fr"></span>
+							
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="box3 fl">
+				<div class="box3_1 fl">
+					<span></span>
+					<h3>新手上路</h3>
+					<div class="cl"></div>
+					<ul>
+						<li><a href="">怎样购物</a></li>
+						<li><a href="">支付常见问题</a></li>
+						<li><a href="">免运费政策</a></li>
+						<li><a href="">发票需知</a></li>
+						<li><a href="">验收验货流程</a></li>
+						<li><a href="">用户评论/咨询</a></li>
+						<li><a href="">大件商品订购流程</a></li>
+					</ul>
+				</div>
+				<div class="box3_2 fl">
+					<span></span>
+					<h3>售后服务</h3>
+					<div class="cl"></div>
+					<ul>
+						<li><a href="">退换货政策</a></li>
+						<li><a href="">订单查询</a></li>
+						<li><a href="">售后申请</a></li>
+					</ul>
+				</div>
+				<div class="box3_3 fl">
+					<span></span>
+					<h3>特色服务</h3>
+					<div class="cl"></div>
+					<ul>
+						<div class="cl"></div>
+						<li><a href="">关于会员制</a></li>
+						<li><a href="">价格保护</a></li>
+					</ul>
+				</div>
+				<div class="box3_4 fl">
+					<span></span>
+					<h3>申请合作</h3>
+					<div class="cl"></div>
+					<ul>
+						<li><a href="">申请成为供应商</a></li>
+						<li><a href="">申请入驻开放平台</a></li>
+						<li><a href="">友情合作</a></li>
+						<li><a href="">网站联盟</a></li>
+						<li><a href="">企业客户</a></li>
+					</ul>
+				</div>
+				<div class="box3_5 fl">
+					<span></span>
+					<h3>关于我们</h3>
+					<div class="cl"></div>
+					<ul>
+						<li><a href="">新蛋集团</a></li>
+						<li><a href="">联系我们</a></li>
+						<li><a href="">诚聘英才</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="box4 fl">
+				<div class="box4_pic">
+					<a class="box4_pic1" href="#" ></a>
+					<a class="box4_pic2" href="#"></a>
+					<a class="box4_pic3" href="#"></a>
+					<a class="box4_pic4" href="#"></a>
+					<a class="box4_pic5" href="#"></a>
+				</div>
+				<div class="box4_txt">
+					<ul>
+						<li>新蛋集团网站：</li>
+						<li><a href="">美国新蛋</a></li>
+						<li><a href="">中国新蛋</a></li>
+						<li><a href="">加拿大新蛋</a></li>
+						<li><a href="">新蛋软件</a></li>
+					</ul>
+					<div class="cl"></div>
+					<div class="cc">
+						<p>®2001-2017&nbsp;新蛋商贸（上海）有限公司&nbsp;版权所有&nbsp;泸ICP备：16033615</p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

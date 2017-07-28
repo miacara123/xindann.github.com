@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.cl{
+			clear:both;
+		}
+		.father{
+			/*width: 1000px;*/
+			/*height: 600px;*/
+			border: 1px solid green;
+			/*position: relative;
+			left: 0;
+			top: 0;*/
+		}
+		ul{
+			list-style: none;
+		}
+		.products_lei{
+			float: left;
+			width: 220px;
+			height: 450px;
+			border: 1px solid grey;
+			/*position: absolute;*/
+		}
+		.nav{
+			float: left;
+		}
+		.nav ul li{
+			float: left;
+			width: 130px;
+			height: 50px;
+			background-color: tan;
+		}
+		.pic{
+			/*width: 520px;
+			height: 300px;*/
+			
+			float: left;
+			position: absolute;
+			top: 50px;
+			left: 220px;
+		}
+		img{
+			width: 520px;
+			height: 300px;
+			background-color: orange;
+		}
+	</style>
+</head>
+<body>
+	<div class="father">
+		<div class="products_lei">
+			<h2>全部商品分类</h2>
+			<ul>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+				<li>手机</li>
+			</ul>
+		</div>
+		<div class="nav">
+			<ul>
+				<li>首页</li>
+				<li>限时抢购</li>
+				<li>限时抢购</li>
+				<li>限时抢购</li>
+			</ul>
+		</div>
+	</div>
+	<div class="cl"></div>
+	<div class="pic">
+		<img src="" alt="" />
+		<!-- 不加定位的话，有字围效果，不会在左上角 -->
+		<!-- 如果把img换成div就直接在左上角 -->
+	</div>
+</body>
+</html>
